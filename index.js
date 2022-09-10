@@ -28,7 +28,7 @@ mongoose.connect(process.env.CONNECTION_URI, { useNewUrlParser: true, useUnified
 //mongodb+srv://user-matt:LOT2272dm@myflixdb.7b6ot.mongodb.net/myFlixDB?retryWrites=true&w=majority
 
 //MAIN PAGE
-app.get('/', (req, res) => {
+app.get('/foo', (req, res) => {
   res.send("Welcome to the main page");
 });
 
